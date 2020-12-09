@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./style.css";
+import "./App.css";
+import "/Users/dell/Desktop/check/project/src/mageInSrc.jpg";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="titlered">Your name here</h1>
+
+      <img src="../mageInPublic.jpg" alt="logo2" />
+      <img src="./mageInSrc.jpg" alt="logo1" />
+      <video>
+        <source src="myvideo.mp4" type="video/mp4" alt="vdo" />
+      </video>
     </div>
   );
-}
-
+};
 export default App;

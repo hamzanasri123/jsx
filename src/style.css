@@ -1,0 +1,15 @@
+video {
+  width: "320";
+  height: "240";
+}
+.titlered {
+  color: red;
+}
+
+div {
+  border: solid 1px black;
+  max-width: 100vw;
+}
+img {
+  width: 350px;
+}
